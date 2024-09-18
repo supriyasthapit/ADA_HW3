@@ -12,4 +12,5 @@
 ###
 
 ## Maintenance and Contribution
-### This project is maintained by Supriya, with contributions from other classmates, the class instructor, and the teaching assistant involved in the survey data collection and analysis.
+### This project is maintained by Supriya, with contributions from other classmates, the class instructor, and the teaching assistant involved in the survey data collection and analysis. 
+
