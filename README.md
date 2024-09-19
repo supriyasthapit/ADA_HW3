@@ -12,10 +12,22 @@
 ## **Why is this project useful?**
 ### Firstly, this project provides an insight into the student's educational background and personal details. It also provides some information on student's preferences and their experience with using statistical software. Therefore, this project may be useful for the instructor to better understand their students at a personal level. Moreover, since it also informs the instructor about the students' R skill level, it might serve as a base for modifying the course structure as per the skill level of the majority of the students. Lastly, the students can use this project to learn about their classmates.
 
-## **How to get started with the project?**
+## **How to get started with the project? (Code description)**
+	1. Install R and RStudio: Ensure that R and RStudio are installed on your machine.
+	2. Install and load required packages: use code: pacman::p_load(dplyr, readr)
+	3. Download the Dataset: The dataset (Class1_survey_dataset.csv) from GitHub.
+	4. Run the Analysis: Open the Class1_survey_analysis.Rmd file in RStudio, and run the code chunks to see the analysis results.
 
-### File format:
-#### Database: CSV
+	### Steps involved in Code:
+	####Step 1: Imported the dataset from GitHub.
+	####Step 2: Renamed variables to make them more descriptive.
+	####Step 3: Cleaned data, and recoded variables where necessary.
+	####Step 4: Performed analysis and answered specific questions (for example, median birth month, season preference).
+	####Step 5: Printed tables and summaries for findings.
+
+## Content details:
+
+### File format: Database is a .csv file
 
 ### Number of variables: 27 (raw); 29 (processed)
 ### Number of observations: 29 students
@@ -54,6 +66,10 @@
 
 #### 28. b_season: the season that a student was born in; Categorical; Summer/Winter/Fall/Spring
 #### 29. b_season_f: copy of b_season used for checking values
+
+## Description of codes
+
+
 
 
 ## **Where can users get help with the project from?**
